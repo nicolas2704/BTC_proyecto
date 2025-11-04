@@ -3,13 +3,19 @@ import plotly.graph_objects as go
 from sqlalchemy import create_engine
 import dash
 from dash import dcc, html
+from dotenv import load_dotenv
+load_dotenv()
+import os
 
 nombre_db="proyecto"
 
 # conectar a la base de datos
 def conexion_a_base_datos(nombre_db):
+    contraseña_pos = os.getenv("contraseña_pos")
+    usuario_pos = os.getenv("usuario_pos")
+    host_post = os.getenv("host_postgres")
     try:
-        cadena_conexion=f"postgresql://ing_data:40Deseptiembre%@172.20.118.27:5432/{nombre_db}"
+        cadena_conexion=f"postgresql://{usuario_pos}:{contraseña_pos}@{host_post}:5432/{nombre_db}"
         engine=create_engine(cadena_conexion)
         print("conexion exitosa")
         return engine
