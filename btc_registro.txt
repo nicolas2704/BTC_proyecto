@@ -1,0 +1,790 @@
+2025-Oct-04-17-38-05 , Proceso ETL inicializado
+
+2025-Oct-04-17-38-05 , Proceso de Extraccion Inicializado
+2025-Oct-04-17-38-05 , Proceso de Extraccion finalizado
+
+2025-Oct-04-17-38-06 , Proceso de Transformacion Incializado
+2025-Oct-04-17-38-06 , Proceso de Transformacion Finalizado
+
+2025-Oct-04-17-38-07 , Proceso de Carga Inicializado:
+2025-Oct-04-17-38-07 , Carga en Base de datos PostgreSQL
+2025-Oct-04-17-38-07 , Proceso de Carga Finalizado
+
+2025-Oct-04-17-38-07 , Proceso ETL Finalizado
+
+2025-Oct-04-17-43-18 , Proceso ETL inicializado
+
+2025-Oct-04-17-43-18 , Proceso de Extraccion Inicializado
+2025-Oct-04-17-43-18 , Proceso de Extraccion finalizado
+
+2025-Oct-04-17-43-19 , Proceso de Transformacion Incializado
+2025-Oct-04-17-43-19 , Proceso de Transformacion Finalizado
+
+2025-Oct-04-17-43-20 , Proceso de Carga Inicializado:
+2025-Oct-04-17-43-20 , Carga en Base de datos PostgreSQL
+2025-Oct-04-17-43-20 , Proceso de Carga Finalizado
+
+2025-Oct-04-17-43-20 , Proceso ETL Finalizado
+
+2025-Oct-04-21-48-22 , Proceso ETL inicializado
+
+2025-Oct-04-21-48-22 , Proceso de Extraccion Inicializado
+2025-Oct-04-21-48-22 , Proceso de Extraccion finalizado
+
+2025-Oct-04-21-48-23 , Proceso de Transformacion Incializado
+2025-Oct-04-21-48-23 , Proceso de Transformacion Finalizado
+
+2025-Oct-04-21-48-24 , Proceso de Carga Inicializado:
+2025-Oct-04-21-48-24 , Carga en Base de datos PostgreSQL
+2025-Oct-04-21-48-24 , Proceso de Carga Finalizado
+
+2025-Oct-04-21-48-24 , Proceso ETL Finalizado
+
+2025-Oct-20-20-42-01 , Proceso ETL inicializado
+
+2025-Oct-20-20-42-01 , Proceso de Extraccion Inicializado
+2025-Oct-20-20-42-02 , Proceso ETL inicializado
+
+2025-Oct-20-20-42-02 , Proceso de Extraccion Inicializado
+2025-Oct-20-20-42-02 , Proceso de Extraccion finalizado
+
+2025-Oct-20-20-42-03 , Proceso de Extraccion finalizado
+
+2025-Oct-20-20-42-03 , Proceso de Transformacion Incializado
+2025-Oct-20-20-42-03 , Proceso de Transformacion Finalizado
+
+2025-Oct-20-20-42-04 , Proceso de Carga Inicializado:
+2025-Oct-20-20-42-04 , Proceso de Transformacion Incializado
+2025-Oct-20-20-42-04 , Proceso de Transformacion Finalizado
+
+2025-Oct-20-20-42-04 , Carga en Base de datos PostgreSQL
+2025-Oct-20-20-42-04 , Proceso de Carga Finalizado
+
+2025-Oct-20-20-42-04 , Proceso ETL Finalizado
+
+2025-Oct-20-20-42-05 , Proceso de Carga Inicializado:
+2025-Oct-20-20-42-05 , Carga en Base de datos PostgreSQL
+2025-Oct-20-20-42-05 , Proceso de Carga Finalizado
+
+2025-Oct-20-20-42-05 , Proceso ETL Finalizado
+
+2025-Oct-20-21-00-00 , Proceso ETL inicializado
+
+2025-Oct-20-21-00-00 , Proceso de Extraccion Inicializado
+2025-Oct-20-21-00-01 , Proceso de Extraccion finalizado
+
+2025-Oct-20-21-00-02 , Proceso de Transformacion Incializado
+2025-Oct-20-21-00-02 , Proceso de Transformacion Finalizado
+
+2025-Oct-20-21-00-03 , Proceso de Carga Inicializado:
+2025-Oct-20-21-00-03 , Carga en Base de datos PostgreSQL
+2025-Oct-20-21-00-03 , Proceso de Carga Finalizado
+
+2025-Oct-20-21-00-03 , Proceso ETL Finalizado
+
+2025-Oct-24-14-05-15 , Proceso ETL inicializado
+
+2025-Oct-24-14-05-15 , Proceso de Extraccion Inicializado
+2025-Oct-24-14-05-15 , Proceso ETL inicializado
+
+2025-Oct-24-14-05-15 , Proceso de Extraccion Inicializado
+2025-Oct-24-14-05-15 , Proceso de Extraccion finalizado
+
+2025-Oct-24-14-05-16 , Proceso de Extraccion finalizado
+
+2025-Oct-24-14-05-16 , Proceso de Transformacion Incializado
+2025-Oct-24-14-05-16 , Proceso de Transformacion Incializado
+2025-Oct-24-14-05-16 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-14-05-16 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-14-05-17 , Proceso de Carga Inicializado:
+2025-Oct-24-14-05-17 , Proceso de Carga Inicializado:
+2025-Oct-24-14-05-17 , Carga en Base de datos PostgreSQL
+2025-Oct-24-14-05-17 , Proceso de Carga Finalizado
+
+2025-Oct-24-14-05-17 , Proceso ETL Finalizado
+
+2025-Oct-24-14-05-17 , Error durante la carga: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "pg_type_typname_nsp_index"
+DETAIL:  Key (typname, typnamespace)=(bitcoin_precios_30, 2200) already exists.
+
+[SQL: 
+CREATE TABLE bitcoin_precios_30 (
+	"Unnamed: 0" BIGINT, 
+	fecha TEXT, 
+	minimo BIGINT, 
+	maximo BIGINT, 
+	apertura BIGINT, 
+	cierre BIGINT
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-Oct-24-14-07-19 , Proceso ETL inicializado
+
+2025-Oct-24-14-07-19 , Proceso de Extraccion Inicializado
+2025-Oct-24-14-07-20 , Proceso de Extraccion finalizado
+
+2025-Oct-24-14-07-20 , Proceso de Transformacion Incializado
+2025-Oct-24-14-07-20 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-14-07-21 , Proceso de Carga Inicializado:
+2025-Oct-24-14-07-22 , Carga en Base de datos PostgreSQL
+2025-Oct-24-14-07-22 , Proceso de Carga Finalizado
+
+2025-Oct-24-14-07-22 , Proceso ETL Finalizado
+
+2025-Oct-24-14-20-00 , Proceso ETL inicializado
+
+2025-Oct-24-14-20-00 , Proceso de Extraccion Inicializado
+2025-Oct-24-14-20-01 , Proceso de Extraccion finalizado
+
+2025-Oct-24-14-20-01 , Proceso de Transformacion Incializado
+2025-Oct-24-14-20-01 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-14-20-02 , Proceso de Carga Inicializado:
+2025-Oct-24-14-20-02 , Carga en Base de datos PostgreSQL
+2025-Oct-24-14-20-02 , Proceso de Carga Finalizado
+
+2025-Oct-24-14-20-02 , Proceso ETL Finalizado
+
+2025-Oct-24-23-16-50 , Proceso ETL inicializado
+
+2025-Oct-24-23-16-50 , Proceso de Extraccion Inicializado
+2025-Oct-24-23-16-50 , Proceso de Extraccion finalizado
+
+2025-Oct-24-23-16-54 , Proceso de Transformacion Incializado
+2025-Oct-24-23-16-55 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-23-16-56 , Proceso de Carga Inicializado:
+2025-Oct-24-23-16-56 , Carga en Base de datos PostgreSQL
+2025-Oct-24-23-16-56 , Proceso de Carga Finalizado
+
+2025-Oct-24-23-16-56 , Proceso ETL Finalizado
+
+2025-Oct-24-23-17-21 , Proceso ETL inicializado
+
+2025-Oct-24-23-17-21 , Proceso de Extraccion Inicializado
+2025-Oct-24-23-17-22 , Proceso de Extraccion finalizado
+
+2025-Oct-24-23-17-22 , Proceso de Transformacion Incializado
+2025-Oct-24-23-17-22 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-23-17-23 , Proceso de Carga Inicializado:
+2025-Oct-24-23-17-23 , Carga en Base de datos PostgreSQL
+2025-Oct-24-23-17-23 , Proceso de Carga Finalizado
+
+2025-Oct-24-23-17-23 , Proceso ETL Finalizado
+
+2025-Oct-24-23-33-52 , Proceso ETL inicializado
+
+2025-Oct-24-23-33-52 , Proceso de Extraccion Inicializado
+2025-Oct-24-23-33-53 , Proceso de Extraccion finalizado
+
+2025-Oct-24-23-33-53 , Proceso de Transformacion Incializado
+2025-Oct-24-23-33-53 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-23-33-54 , Proceso de Carga Inicializado:
+2025-Oct-24-23-33-54 , Carga en Base de datos PostgreSQL
+2025-Oct-24-23-33-54 , Proceso de Carga Finalizado
+
+2025-Oct-24-23-33-54 , Proceso ETL Finalizado
+
+2025-Oct-24-23-43-51 , Proceso ETL inicializado
+
+2025-Oct-24-23-43-51 , Proceso de Extraccion Inicializado
+2025-Oct-24-23-43-52 , Proceso de Extraccion finalizado
+
+2025-Oct-24-23-43-52 , Proceso de Transformacion Incializado
+2025-Oct-24-23-43-52 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-23-43-53 , Proceso de Carga Inicializado:
+2025-Oct-24-23-43-53 , Carga en Base de datos PostgreSQL
+2025-Oct-24-23-43-53 , Proceso de Carga Finalizado
+
+2025-Oct-24-23-43-53 , Proceso ETL Finalizado
+
+2025-Oct-24-23-47-07 , Proceso ETL inicializado
+
+2025-Oct-24-23-47-07 , Proceso de Extraccion Inicializado
+2025-Oct-24-23-47-08 , Proceso de Extraccion finalizado
+
+2025-Oct-24-23-47-08 , Proceso de Transformacion Incializado
+2025-Oct-24-23-47-08 , Proceso de Transformacion Finalizado
+
+2025-Oct-24-23-47-09 , Proceso de Carga Inicializado:
+2025-Oct-24-23-47-09 , Carga en Base de datos PostgreSQL
+2025-Oct-24-23-47-09 , Proceso de Carga Finalizado
+
+2025-Oct-24-23-47-09 , Proceso ETL Finalizado
+
+2025-Oct-25-00-00-14 , Proceso ETL inicializado
+
+2025-Oct-25-00-00-14 , Proceso de Extraccion Inicializado
+2025-Oct-25-00-00-15 , Proceso de Extraccion finalizado
+
+2025-Oct-25-00-00-15 , Proceso de Transformacion Incializado
+2025-Oct-25-00-00-16 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-00-00-16 , Proceso de Carga Inicializado:
+2025-Oct-25-00-00-16 , Carga en Base de datos PostgreSQL
+2025-Oct-25-00-00-16 , Proceso de Carga Finalizado
+
+2025-Oct-25-00-00-16 , Proceso ETL Finalizado
+
+2025-Oct-25-00-07-45 , Proceso ETL inicializado
+
+2025-Oct-25-00-07-45 , Proceso de Extraccion Inicializado
+2025-Oct-25-00-07-46 , Proceso de Extraccion finalizado
+
+2025-Oct-25-00-07-46 , Proceso de Transformacion Incializado
+2025-Oct-25-00-07-46 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-00-07-47 , Proceso de Carga Inicializado:
+2025-Oct-25-00-07-47 , Carga en Base de datos PostgreSQL
+2025-Oct-25-00-07-47 , Proceso de Carga Finalizado
+
+2025-Oct-25-00-07-47 , Proceso ETL Finalizado
+
+2025-Oct-25-00-20-57 , Proceso ETL inicializado
+
+2025-Oct-25-00-20-57 , Proceso de Extraccion Inicializado
+2025-Oct-25-00-20-58 , Proceso de Extraccion finalizado
+
+2025-Oct-25-00-20-58 , Proceso de Transformacion Incializado
+2025-Oct-25-00-20-59 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-00-20-59 , Proceso de Carga Inicializado:
+2025-Oct-25-00-21-00 , Carga en Base de datos PostgreSQL
+2025-Oct-25-00-21-00 , Proceso de Carga Finalizado
+
+2025-Oct-25-00-21-00 , Proceso ETL Finalizado
+
+2025-Oct-25-19-41-13 , Proceso ETL inicializado
+
+2025-Oct-25-19-41-13 , Proceso de Extraccion Inicializado
+2025-Oct-25-19-41-14 , Proceso de Extraccion finalizado
+
+2025-Oct-25-19-41-14 , Proceso de Transformacion Incializado
+2025-Oct-25-19-41-15 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-19-41-15 , Proceso de Carga Inicializado:
+2025-Oct-25-19-41-16 , Carga en Base de datos PostgreSQL
+2025-Oct-25-19-41-16 , Proceso de Carga Finalizado
+
+2025-Oct-25-19-41-16 , Proceso ETL Finalizado
+
+2025-Oct-25-19-50-42 , Proceso ETL inicializado
+
+2025-Oct-25-19-50-42 , Proceso de Extraccion Inicializado
+2025-Oct-25-19-50-42 , Proceso de Extraccion finalizado
+
+2025-Oct-25-19-50-43 , Proceso de Transformacion Incializado
+2025-Oct-25-19-50-43 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-19-50-44 , Proceso de Carga Inicializado:
+2025-Oct-25-19-50-44 , Carga en Base de datos PostgreSQL
+2025-Oct-25-19-50-44 , Proceso de Carga Finalizado
+
+2025-Oct-25-19-50-44 , Proceso ETL Finalizado
+
+2025-Oct-25-19-52-59 , Proceso ETL inicializado
+
+2025-Oct-25-19-52-59 , Proceso de Extraccion Inicializado
+2025-Oct-25-19-52-59 , Proceso de Extraccion finalizado
+
+2025-Oct-25-19-53-00 , Proceso de Transformacion Incializado
+2025-Oct-25-19-53-00 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-19-53-01 , Proceso de Carga Inicializado:
+2025-Oct-25-19-53-01 , Carga en Base de datos PostgreSQL
+2025-Oct-25-19-53-01 , Proceso de Carga Finalizado
+
+2025-Oct-25-19-53-01 , Proceso ETL Finalizado
+
+2025-Oct-25-20-07-59 , Proceso ETL inicializado
+
+2025-Oct-25-20-07-59 , Proceso de Extraccion Inicializado
+2025-Oct-25-20-08-00 , Proceso de Extraccion finalizado
+
+2025-Oct-25-20-08-00 , Proceso de Transformacion Incializado
+2025-Oct-25-20-08-00 , Proceso de Transformacion Finalizado
+
+2025-Oct-25-20-08-01 , Proceso de Carga Inicializado:
+2025-Oct-25-20-08-01 , Carga en Base de datos PostgreSQL
+2025-Oct-25-20-08-01 , Proceso de Carga Finalizado
+
+2025-Oct-25-20-08-01 , Proceso ETL Finalizado
+
+2025-Oct-27-10-13-14 , Proceso ETL inicializado
+
+2025-Oct-27-10-13-14 , Proceso de Extraccion Inicializado
+2025-Oct-27-10-13-15 , Proceso ETL inicializado
+
+2025-Oct-27-10-13-15 , Proceso de Extraccion Inicializado
+2025-Oct-27-10-13-15 , Proceso de Extraccion finalizado
+
+2025-Oct-27-10-13-15 , Proceso de Extraccion finalizado
+
+2025-Oct-27-10-13-16 , Proceso de Transformacion Incializado
+2025-Oct-27-10-13-16 , Proceso de Transformacion Incializado
+2025-Oct-27-10-13-16 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-10-13-16 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-10-13-17 , Proceso de Carga Inicializado:
+2025-Oct-27-10-13-17 , Proceso de Carga Inicializado:
+2025-Oct-27-10-13-17 , Carga en Base de datos PostgreSQL
+2025-Oct-27-10-13-17 , Proceso de Carga Finalizado
+
+2025-Oct-27-10-13-17 , Proceso ETL Finalizado
+
+2025-Oct-27-10-13-17 , Carga en Base de datos PostgreSQL
+2025-Oct-27-10-13-17 , Proceso de Carga Finalizado
+
+2025-Oct-27-10-13-17 , Proceso ETL Finalizado
+
+2025-Oct-27-12-26-52 , Proceso ETL inicializado
+
+2025-Oct-27-12-26-52 , Proceso de Extraccion Inicializado
+2025-Oct-27-12-26-53 , Proceso de Extraccion finalizado
+
+2025-Oct-27-12-26-54 , Proceso de Transformacion Incializado
+2025-Oct-27-12-26-54 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-12-26-55 , Proceso de Carga Inicializado:
+2025-Oct-27-12-26-55 , Carga en Base de datos PostgreSQL
+2025-Oct-27-12-26-55 , Proceso de Carga Finalizado
+
+2025-Oct-27-12-26-55 , Proceso ETL Finalizado
+
+2025-Oct-27-12-57-13 , Proceso ETL inicializado
+
+2025-Oct-27-12-57-13 , Proceso de Extraccion Inicializado
+2025-Oct-27-12-57-14 , Proceso de Extraccion finalizado
+
+2025-Oct-27-12-57-14 , Proceso de Transformacion Incializado
+2025-Oct-27-12-57-14 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-12-57-15 , Proceso de Carga Inicializado:
+2025-Oct-27-12-57-15 , Carga en Base de datos PostgreSQL
+2025-Oct-27-12-57-15 , Proceso de Carga Finalizado
+
+2025-Oct-27-12-57-15 , Proceso ETL Finalizado
+
+2025-Oct-27-13-13-00 , Proceso ETL inicializado
+
+2025-Oct-27-13-13-00 , Proceso de Extraccion Inicializado
+2025-Oct-27-13-13-01 , Proceso de Extraccion finalizado
+
+2025-Oct-27-13-13-01 , Proceso de Transformacion Incializado
+2025-Oct-27-13-13-01 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-13-13-02 , Proceso de Carga Inicializado:
+2025-Oct-27-13-13-02 , Carga en Base de datos PostgreSQL
+2025-Oct-27-13-13-02 , Proceso de Carga Finalizado
+
+2025-Oct-27-13-13-02 , Proceso ETL Finalizado
+
+2025-Oct-27-13-32-27 , Proceso ETL inicializado
+
+2025-Oct-27-13-32-27 , Proceso de Extraccion Inicializado
+2025-Oct-27-13-32-27 , Proceso de Extraccion finalizado
+
+2025-Oct-27-13-32-28 , Proceso de Transformacion Incializado
+2025-Oct-27-13-32-28 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-13-32-32 , Proceso de Carga Inicializado:
+2025-Oct-27-13-32-32 , Carga en Base de datos PostgreSQL
+2025-Oct-27-13-32-32 , Proceso de Carga Finalizado
+
+2025-Oct-27-13-32-32 , Proceso ETL Finalizado
+
+2025-Oct-27-13-36-29 , Proceso ETL inicializado
+
+2025-Oct-27-13-36-29 , Proceso de Extraccion Inicializado
+2025-Oct-27-13-36-30 , Proceso de Extraccion finalizado
+
+2025-Oct-27-13-36-30 , Proceso de Transformacion Incializado
+2025-Oct-27-13-36-30 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-13-36-31 , Proceso de Carga Inicializado:
+2025-Oct-27-13-36-31 , Carga en Base de datos PostgreSQL
+2025-Oct-27-13-36-31 , Proceso de Carga Finalizado
+
+2025-Oct-27-13-36-31 , Proceso ETL Finalizado
+
+2025-Oct-27-14-30-42 , Proceso ETL inicializado
+
+2025-Oct-27-14-30-42 , Proceso de Extraccion Inicializado
+2025-Oct-27-14-30-43 , Proceso de Extraccion finalizado
+
+2025-Oct-27-14-30-43 , Proceso de Transformacion Incializado
+2025-Oct-27-14-30-44 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-14-30-44 , Proceso de Carga Inicializado:
+2025-Oct-27-14-30-45 , Carga en Base de datos PostgreSQL
+2025-Oct-27-14-30-45 , Proceso de Carga Finalizado
+
+2025-Oct-27-14-30-45 , Proceso ETL Finalizado
+
+2025-Oct-27-14-38-35 , Proceso ETL inicializado
+
+2025-Oct-27-14-38-35 , Proceso de Extraccion Inicializado
+2025-Oct-27-14-38-36 , Proceso de Extraccion finalizado
+
+2025-Oct-27-14-38-36 , Proceso de Transformacion Incializado
+2025-Oct-27-14-38-36 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-14-38-37 , Proceso de Carga Inicializado:
+2025-Oct-27-14-38-37 , Carga en Base de datos PostgreSQL
+2025-Oct-27-14-38-37 , Proceso de Carga Finalizado
+
+2025-Oct-27-14-38-37 , Proceso ETL Finalizado
+
+2025-Oct-27-14-49-03 , Proceso ETL inicializado
+
+2025-Oct-27-14-49-03 , Proceso de Extraccion Inicializado
+2025-Oct-27-14-49-04 , Proceso de Extraccion finalizado
+
+2025-Oct-27-14-49-04 , Proceso de Transformacion Incializado
+2025-Oct-27-14-49-04 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-14-49-05 , Proceso de Carga Inicializado:
+2025-Oct-27-14-49-05 , Carga en Base de datos PostgreSQL
+2025-Oct-27-14-49-05 , Proceso de Carga Finalizado
+
+2025-Oct-27-14-49-05 , Proceso ETL Finalizado
+
+2025-Oct-27-16-28-04 , Proceso ETL inicializado
+
+2025-Oct-27-16-28-04 , Proceso de Extraccion Inicializado
+2025-Oct-27-16-28-04 , Proceso de Extraccion finalizado
+
+2025-Oct-27-16-28-05 , Proceso de Transformacion Incializado
+2025-Oct-27-16-28-05 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-16-28-06 , Proceso de Carga Inicializado:
+2025-Oct-27-16-28-06 , Carga en Base de datos PostgreSQL
+2025-Oct-27-16-28-06 , Proceso de Carga Finalizado
+
+2025-Oct-27-16-28-06 , Proceso ETL Finalizado
+
+2025-Oct-27-16-29-52 , Proceso ETL inicializado
+
+2025-Oct-27-16-29-52 , Proceso de Extraccion Inicializado
+2025-Oct-27-16-29-53 , Proceso de Extraccion finalizado
+
+2025-Oct-27-16-29-54 , Proceso de Transformacion Incializado
+2025-Oct-27-16-29-54 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-16-29-55 , Proceso de Carga Inicializado:
+2025-Oct-27-16-29-55 , Carga en Base de datos PostgreSQL
+2025-Oct-27-16-29-55 , Proceso de Carga Finalizado
+
+2025-Oct-27-16-29-55 , Proceso ETL Finalizado
+
+2025-Oct-27-16-42-32 , Proceso ETL inicializado
+
+2025-Oct-27-16-42-32 , Proceso de Extraccion Inicializado
+2025-Oct-27-16-42-33 , Proceso de Extraccion finalizado
+
+2025-Oct-27-16-42-33 , Proceso de Transformacion Incializado
+2025-Oct-27-16-42-33 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-16-42-34 , Proceso de Carga Inicializado:
+2025-Oct-27-16-42-34 , Carga en Base de datos PostgreSQL
+2025-Oct-27-16-42-34 , Proceso de Carga Finalizado
+
+2025-Oct-27-16-42-34 , Proceso ETL Finalizado
+
+2025-Oct-27-17-57-38 , Proceso ETL inicializado
+
+2025-Oct-27-17-57-38 , Proceso de Extraccion Inicializado
+2025-Oct-27-17-57-38 , Proceso de Extraccion finalizado
+
+2025-Oct-27-17-57-39 , Proceso de Transformacion Incializado
+2025-Oct-27-17-57-39 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-17-57-40 , Proceso de Carga Inicializado:
+2025-Oct-27-17-57-40 , Carga en Base de datos PostgreSQL
+2025-Oct-27-17-57-40 , Proceso de Carga Finalizado
+
+2025-Oct-27-17-57-40 , Proceso ETL Finalizado
+
+2025-Oct-27-18-09-30 , Proceso ETL inicializado
+
+2025-Oct-27-18-09-30 , Proceso de Extraccion Inicializado
+2025-Oct-27-18-09-30 , Proceso de Extraccion finalizado
+
+2025-Oct-27-18-09-31 , Proceso de Transformacion Incializado
+2025-Oct-27-18-09-31 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-18-09-32 , Proceso de Carga Inicializado:
+2025-Oct-27-18-09-32 , Carga en Base de datos PostgreSQL
+2025-Oct-27-18-09-32 , Proceso de Carga Finalizado
+
+2025-Oct-27-18-09-32 , Proceso ETL Finalizado
+
+2025-Oct-27-18-18-22 , Proceso ETL inicializado
+
+2025-Oct-27-18-18-22 , Proceso de Extraccion Inicializado
+2025-Oct-27-18-18-23 , Proceso de Extraccion finalizado
+
+2025-Oct-27-18-18-23 , Proceso de Transformacion Incializado
+2025-Oct-27-18-18-23 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-18-18-24 , Proceso de Carga Inicializado:
+2025-Oct-27-18-18-25 , Carga en Base de datos PostgreSQL
+2025-Oct-27-18-18-25 , Proceso de Carga Finalizado
+
+2025-Oct-27-18-18-25 , Proceso ETL Finalizado
+
+2025-Oct-27-18-37-12 , Proceso ETL inicializado
+
+2025-Oct-27-18-37-12 , Proceso de Extraccion Inicializado
+2025-Oct-27-18-37-13 , Proceso de Extraccion finalizado
+
+2025-Oct-27-18-37-13 , Proceso de Transformacion Incializado
+2025-Oct-27-18-37-14 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-18-37-14 , Proceso de Carga Inicializado:
+2025-Oct-27-18-37-15 , Carga en Base de datos PostgreSQL
+2025-Oct-27-18-37-15 , Proceso de Carga Finalizado
+
+2025-Oct-27-18-37-15 , Proceso ETL Finalizado
+
+2025-Oct-27-18-50-18 , Proceso ETL inicializado
+
+2025-Oct-27-18-50-18 , Proceso de Extraccion Inicializado
+2025-Oct-27-18-50-19 , Proceso de Extraccion finalizado
+
+2025-Oct-27-18-50-19 , Proceso de Transformacion Incializado
+2025-Oct-27-18-50-20 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-18-50-20 , Proceso de Carga Inicializado:
+2025-Oct-27-18-50-20 , Carga en Base de datos PostgreSQL
+2025-Oct-27-18-50-20 , Proceso de Carga Finalizado
+
+2025-Oct-27-18-50-20 , Proceso ETL Finalizado
+
+2025-Oct-27-19-13-20 , Proceso ETL inicializado
+
+2025-Oct-27-19-13-20 , Proceso de Extraccion Inicializado
+2025-Oct-27-19-13-20 , Proceso de Extraccion finalizado
+
+2025-Oct-27-19-13-21 , Proceso de Transformacion Incializado
+2025-Oct-27-19-13-21 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-19-13-22 , Proceso de Carga Inicializado:
+2025-Oct-27-19-13-22 , Carga en Base de datos PostgreSQL
+2025-Oct-27-19-13-22 , Proceso de Carga Finalizado
+
+2025-Oct-27-19-13-22 , Proceso ETL Finalizado
+
+2025-Oct-27-19-23-59 , Proceso ETL inicializado
+
+2025-Oct-27-19-23-59 , Proceso de Extraccion Inicializado
+2025-Oct-27-19-24-00 , Proceso de Extraccion finalizado
+
+2025-Oct-27-19-24-00 , Proceso de Transformacion Incializado
+2025-Oct-27-19-24-00 , Proceso de Transformacion Finalizado
+
+2025-Oct-27-19-24-02 , Proceso de Carga Inicializado:
+2025-Oct-27-19-24-02 , Carga en Base de datos PostgreSQL
+2025-Oct-27-19-24-02 , Proceso de Carga Finalizado
+
+2025-Oct-27-19-24-02 , Proceso ETL Finalizado
+
+2025-Oct-28-09-07-31 , Proceso ETL inicializado
+
+2025-Oct-28-09-07-31 , Proceso de Extraccion Inicializado
+2025-Oct-28-09-07-31 , Proceso de Extraccion finalizado
+
+2025-Oct-28-09-07-31 , Proceso de Transformacion Incializado
+2025-Oct-28-09-07-31 , Proceso de Transformacion Finalizado
+
+2025-Oct-28-09-07-33 , Proceso de Carga Inicializado:
+2025-Oct-28-09-07-34 , Carga en Base de datos PostgreSQL
+2025-Oct-28-09-07-34 , Proceso de Carga Finalizado
+
+2025-Oct-28-09-07-34 , Proceso ETL Finalizado
+
+2025-Oct-28-09-13-19 , Proceso ETL inicializado
+
+2025-Oct-28-09-13-19 , Proceso de Extraccion Inicializado
+2025-Oct-28-09-13-19 , Proceso de Extraccion finalizado
+
+2025-Oct-28-09-13-20 , Proceso de Transformacion Incializado
+2025-Oct-28-09-13-20 , Proceso de Transformacion Finalizado
+
+2025-Oct-28-09-13-22 , Proceso de Carga Inicializado:
+2025-Oct-28-09-13-22 , Carga en Base de datos PostgreSQL
+2025-Oct-28-09-13-22 , Proceso de Carga Finalizado
+
+2025-Oct-28-09-13-22 , Proceso ETL Finalizado
+
+2025-Nov-03-16:34:38 , Proceso ETL inicializado
+
+2025-Nov-03-16:34:38 , Proceso de Extraccion Inicializado
+2025-Nov-03-16:34:38 , Proceso de Extraccion finalizado
+
+2025-Nov-03-16:34:39 , Proceso de Transformacion Incializado
+2025-Nov-03-16:34:39 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-16:44:18 , Proceso ETL inicializado
+
+2025-Nov-03-16:44:18 , Proceso de Extraccion Inicializado
+2025-Nov-03-16:44:18 , Proceso de Extraccion finalizado
+
+2025-Nov-03-16:44:19 , Proceso de Transformacion Incializado
+2025-Nov-03-16:44:19 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-16:48:00 , Proceso ETL inicializado
+
+2025-Nov-03-16:48:00 , Proceso de Extraccion Inicializado
+2025-Nov-03-16:48:00 , Proceso de Extraccion finalizado
+
+2025-Nov-03-16:48:01 , Proceso de Transformacion Incializado
+2025-Nov-03-16:48:01 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-16:53:16 , Proceso ETL inicializado
+
+2025-Nov-03-16:53:16 , Proceso de Extraccion Inicializado
+2025-Nov-03-16:53:16 , Proceso de Extraccion finalizado
+
+2025-Nov-03-16:53:17 , Proceso de Transformacion Incializado
+2025-Nov-03-16:53:17 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:07:27 , Proceso ETL inicializado
+
+2025-Nov-03-17:07:27 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:07:28 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:07:28 , Proceso de Transformacion Incializado
+2025-Nov-03-17:07:29 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:18:16 , Proceso ETL inicializado
+
+2025-Nov-03-17:18:16 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:18:17 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:18:17 , Proceso de Transformacion Incializado
+2025-Nov-03-17:18:17 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:23:15 , Proceso ETL inicializado
+
+2025-Nov-03-17:23:15 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:23:16 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:23:16 , Proceso de Transformacion Incializado
+2025-Nov-03-17:23:16 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:28:12 , Proceso ETL inicializado
+
+2025-Nov-03-17:28:12 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:28:12 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:28:13 , Proceso de Transformacion Incializado
+2025-Nov-03-17:28:13 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:31:00 , Proceso ETL inicializado
+
+2025-Nov-03-17:31:00 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:31:00 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:31:01 , Proceso de Transformacion Incializado
+2025-Nov-03-17:31:01 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:49:16 , Proceso ETL inicializado
+
+2025-Nov-03-17:49:16 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:49:16 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:49:17 , Proceso de Transformacion Incializado
+2025-Nov-03-17:49:17 , Proceso de Transformacion Finalizado
+
+2025-Nov-03-17:55:12 , Proceso ETL inicializado
+
+2025-Nov-03-17:55:12 , Proceso de Extraccion Inicializado
+2025-Nov-03-17:55:13 , Proceso de Extraccion finalizado
+
+2025-Nov-03-17:55:13 , Proceso de Transformacion Incializado
+2025-Nov-03-17:55:14 , Proceso de Transformacion Finalizado
+
+2025-Nov-03 18:29:41 , Proceso ETL inicializado
+
+2025-Nov-03 18:29:41 , Proceso de Extraccion Inicializado
+2025-Nov-03 18:32:31 , Proceso ETL inicializado
+
+2025-Nov-03 18:32:31 , Proceso de Extraccion Inicializado
+2025-Nov-03 18:32:32 , Proceso de Extraccion finalizado
+
+2025-Nov-03 18:32:32 , Proceso de Transformacion Inicializado
+2025-Nov-03 18:32:32 , Proceso de Transformacion Finalizado
+
+2025-Nov-03 18:32:34 , Ocurrio el siguiente error:(334, b'UGFzc3dvcmQ6')
+2025-Nov-03 18:32:35 , Proceso de Carga Inicializado:
+2025-Nov-03 18:32:35 , Carga en Base de datos PostgreSQL
+2025-Nov-03 18:32:35 , Proceso de Carga Finalizado
+
+2025-Nov-03 18:32:35 , Proceso ETL Finalizado
+
+2025-Nov-03 18:36:18 , Proceso ETL inicializado
+
+2025-Nov-03 18:36:18 , Proceso de Extraccion Inicializado
+2025-Nov-03 18:36:18 , Proceso de Extraccion finalizado
+
+2025-Nov-03 18:36:19 , Proceso de Transformacion Inicializado
+2025-Nov-03 18:36:19 , Proceso de Transformacion Finalizado
+
+2025-Nov-03 18:36:21 , Proceso de Carga Inicializado:
+2025-Nov-03 18:36:21 , Carga en Base de datos PostgreSQL
+2025-Nov-03 18:36:21 , Proceso de Carga Finalizado
+
+2025-Nov-03 18:36:21 , Proceso ETL Finalizado
+
+2025-Nov-03 18:39:57 , Proceso ETL inicializado
+
+2025-Nov-03 18:39:57 , Proceso de Extraccion Inicializado
+2025-Nov-03 18:39:58 , Proceso de Extraccion finalizado
+
+2025-Nov-03 18:39:58 , Proceso de Transformacion Inicializado
+2025-Nov-03 18:39:58 , Proceso de Transformacion Finalizado
+
+2025-Nov-03 18:40:01 , Ocurrio el siguiente error:(334, b'UGFzc3dvcmQ6')
+2025-Nov-03 18:40:01 , Proceso de Carga Inicializado:
+2025-Nov-03 18:40:01 , Carga en Base de datos PostgreSQL
+2025-Nov-03 18:40:01 , Proceso de Carga Finalizado
+
+2025-Nov-03 18:40:01 , Proceso ETL Finalizado
+
+2025-Nov-03 18:43:11 , Proceso ETL inicializado
+
+2025-Nov-03 18:43:11 , Proceso de Extraccion Inicializado
+2025-Nov-03 18:43:11 , Proceso de Extraccion finalizado
+
+2025-Nov-03 18:43:12 , Proceso de Transformacion Inicializado
+2025-Nov-03 18:43:12 , Proceso de Transformacion Finalizado
+
+2025-Nov-03 18:43:15 , Ocurrio el siguiente error:(334, b'UGFzc3dvcmQ6')
+2025-Nov-03 18:43:15 , Proceso de Carga Inicializado:
+2025-Nov-03 18:43:15 , Carga en Base de datos PostgreSQL
+2025-Nov-03 18:43:15 , Proceso de Carga Finalizado
+
+2025-Nov-03 18:43:15 , Proceso ETL Finalizado
+
+2025-Nov-03 18:53:40 , Proceso ETL inicializado
+
+2025-Nov-03 18:53:40 , Proceso de Extraccion Inicializado
+2025-Nov-03 18:53:40 , Proceso de Extraccion finalizado
+
+2025-Nov-03 18:53:41 , Proceso de Transformacion Inicializado
+2025-Nov-03 18:53:41 , Proceso de Transformacion Finalizado
+
+2025-Nov-03 18:53:46 , Proceso de Carga Inicializado:
+2025-Nov-03 18:53:46 , Carga en Base de datos PostgreSQL
+2025-Nov-03 18:53:46 , Proceso de Carga Finalizado
+
+2025-Nov-03 18:53:46 , Proceso ETL Finalizado
+
