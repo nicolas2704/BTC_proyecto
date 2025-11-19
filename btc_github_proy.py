@@ -31,7 +31,7 @@ from airflow.providers.standard.operators.python import BranchPythonOperator
 from airflow.providers.standard.operators.empty import EmptyOperator
 import pendulum
 from airflow.providers.postgres.hooks.postgres import PostgresHook
-POSTGRES_CONN_ID = "postgres_nicolas" # para la conexion a la base de datos
+POSTGRES_CONN_ID = os.getenv("conex_db") # para la conexion a la base de datos
 
 
 # Trabajar con UTC para APIs
